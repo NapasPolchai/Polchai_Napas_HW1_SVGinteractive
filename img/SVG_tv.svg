@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 886.92 821.37">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 39px;
+      }
+
+      .cls-3 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Base">
+    <path class="cls-3" d="M325.52,244.96c0-65.14,52.8-117.94,117.94-117.94s117.94,52.8,117.94,117.94"/>
+    <rect class="cls-2" x="19.5" y="244.96" width="847.92" height="475.03" rx="50.68" ry="50.68"/>
+    <rect class="cls-3" x="102.27" y="720" width="682.38" height="101.37" rx="50.68" ry="50.68"/>
+  </g>
+  <g id="Animate">
+    <g id="cable">
+      <line class="cls-1" x1="492.79" y1="177.01" x2="650.3" y2="19.5"/>
+      <line class="cls-1" x1="394.14" y1="177.01" x2="236.63" y2="19.5"/>
+    </g>
+  </g>
+</svg>
