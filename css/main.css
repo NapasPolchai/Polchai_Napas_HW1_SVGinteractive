@@ -1,0 +1,31 @@
+svg {
+    width: 400px;
+    height: 600px;
+    margin-top: 128px;
+}
+
+#Base {
+    fill: rgb(121, 0, 0);
+}
+
+#Base:hover + #Animate {
+    fill: red;
+    transition: all 0.5s ease;
+    transform-origin: center;
+}
+
+#Base:hover + #Animate circle {
+    animation: moveBubbles 1s linear infinite;
+}
+
+@keyframes moveBubbles {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
