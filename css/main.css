@@ -111,3 +111,56 @@ svg {
         transform: translateY(0);
     }
 }
+
+/* Plug */
+#Baseplug {
+    fill: rgb(0, 0, 0);
+}
+
+#Baseplug:hover + #Animate {
+    fill: rgb(0, 0, 0);
+    transition: all 0.5s ease;
+    transform-origin: center;
+}
+
+#Baseplug:hover + #Animate {
+    animation: moveBubbles 1s linear infinite;
+}
+
+@keyframes moveBubbles {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+/* tv */
+#Basetv {
+    fill: rgb(0, 0, 0);
+}
+
+#Basetv:hover + #Animate {
+    fill: rgb(0, 0, 0);
+    transition: all 0.5s ease;
+    transform-origin: center;
+}
+
+#Basetv:hover + #Animate {
+    animation: moveBubbles 1s linear infinite;
+}
+
+@keyframes moveBubbles {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
