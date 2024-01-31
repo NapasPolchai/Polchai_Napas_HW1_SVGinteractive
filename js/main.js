@@ -1,53 +1,77 @@
-// this is JS comment
-/* this is a longer JS comment
-commenting your code is very important for you and your teamates
-keep your file descriptive!!
-*/
-console.log('Javascript is running');
+//The Window.console property returns a reference to the console object, which provides methods for logging information to the browser's console.
 
-let score = 100;
-console.log(score);
-score = 200;
-console.log(score);
 
-const playerName = 'Randy';
-console.log(playerName);
-//playerName = 'Bob';
-console.log(playerName);
+//chem
+console.log("JS file connected");
 
-const buy = document.querySelector('#buyButton');
-const controlButtons = document.querySelectorAll('#player button');
+const vectorGraphic1 = document.querySelector('#chem');
 
-console.log(buy);
-console.log(controlButtons);
-
-function showPlayerScore(){
-    console.log('Name: ' + playerName + ', Score: ' + score)
+function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
 }
 
-function addNumbers(num1, num2) {
-    let total = num1 + num2;
+vectorGraphic1.addEventListener('click', logThisId);
 
-    return total;
+//design
+console.log("JS file connected");
+
+const vectorGraphic2 = document.querySelector('#design');
+
+function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
 }
 
-function buyProduct() {
-    console.log('user click bought button');
+vectorGraphic2.addEventListener('click', logThisId);
+
+//house
+console.log("JS file connected");
+
+const vectorGraphic3 = document.querySelector('#house');
+
+function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
 }
 
-function logMyId() {
-    console.log(this.id);
+vectorGraphic3.addEventListener('click', logThisId);
+
+//mouse
+console.log("JS file connected");
+
+const vectorGraphic4 = document.querySelector('#mouse');
+
+function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
 }
 
-showPlayerScore();
-console.log(addNumbers(5, 10));
-console.log(addNumbers(5, 11));
-console.log(addNumbers(5, 12));
-console.log(addNumbers(5, 13));
+vectorGraphic4.addEventListener('click', logThisId);
 
-buy.addEventListener('click', buyProduct);
-controlButtons.forEach(function(button){
-    button.addEventListener('click', logMyId);
-});
+//plug
+console.log("JS file connected");
 
-//controlButtons.forEach(button => button.addEventListener('click', logMyId));
+const vectorGraphic5 = document.querySelector('#plug');
+
+function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
+}
+
+vectorGraphic5.addEventListener('click', logThisId);
+
+//tv
+console.log("JS file connected");
+
+const vectorGraphic6 = document.querySelector('#tv');
+
+function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
+}
+
+vectorGraphic6.addEventListener('click', logThisId);
+
+
+
